@@ -66,6 +66,7 @@ function calendar (state = initialCalendarState, action) {
 				[day]: {
 					...state[day],
 					[meal]: {
+						recipe,
 						image: recipe.image,
 						label: recipe.label
 					},
